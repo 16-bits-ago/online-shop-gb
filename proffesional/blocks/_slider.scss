@@ -1,0 +1,33 @@
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./imgprof/sliderimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F7F7F7;
+    height: 777px;
+    &__btn {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        &_left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(42, 42, 42, 0.15); 
+            width: 47px;
+            height: 47px; 
+            cursor: pointer;
+        }
+        &_right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(42, 42, 42, 0.15); 
+            width: 47px;
+            height: 47px; 
+            cursor: pointer;
+        }
+    }
+}

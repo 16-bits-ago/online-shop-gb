@@ -1,0 +1,32 @@
+@import "./vars";
+
+.footer__block1 {
+    background-color: #222224;
+    height: 340px;
+    display: flex;
+    align-items: center;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    &__card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 360px;
+    }
+    &__head {
+        padding-top: 28px;
+        padding-bottom: 16px;
+        @include text_style (20px, 24px);
+        color: #FBFBFB;
+    }
+    &__text {
+        text-align: center;
+        @include text_style (14px, 17px);
+        text-align: center;
+        color: #FBFBFB;
+    
+    }
+}

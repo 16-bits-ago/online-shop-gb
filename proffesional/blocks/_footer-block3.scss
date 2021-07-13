@@ -1,0 +1,30 @@
+@import "./vars";
+
+.footer {
+    
+    &__block3 {
+        background-color: #222224;
+    }
+    
+    &__block3wrap {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.footerblock3text {
+    @include text_style (16px, 19px);
+    color: #FBFBFB;    
+}
+
+.socialnetwork {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    &:hover {
+        background-color: #F16D7F;
+        border: none;
+    }
+}

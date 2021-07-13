@@ -1,0 +1,59 @@
+@import "./vars";
+
+.footer {
+    &__block2 {
+        height: 448px;
+        background-image: url(../proffesional/imgprof/footerbcg.jpg);
+        display: flex;
+        align-items: center;
+    }
+    &__block2content {
+        display: flex;
+    }
+    &__block2info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 327px;
+    }
+    &__block2infotext {
+        max-width: 360px;
+        text-align: center;
+        @include text_style (20px, 24px);
+        color: #222224;
+        padding-top: 41px;
+    }
+    &__subscribe {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 71px;
+    }
+    &__subscribetext {
+        @include text_style (14px, 40px);
+        text-align: center;
+        color: #222224;
+        
+    }
+    &__subscribetexthead {
+        @include text_style (24px, 30px);
+        text-align: center;
+        color: #222224;   
+    }
+    &__subscribesubmitbotom {
+        display: flex;   
+    }
+    &__subscribesubmitbotomemail {
+        padding: 7px 22px;
+        border: none;
+        background-color: #e1e1e1;
+        border-radius: 50px 0 0 50px;
+    }
+    &__subscribesubmitbotomsend{
+        padding: 7px 22px;
+        border: none;
+        background-color: #F16D7F;
+        border-radius: 0 50px 50px 0;
+        cursor: pointer;
+    }
+}

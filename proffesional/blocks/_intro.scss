@@ -1,0 +1,31 @@
+@import "./vars";
+
+.intro {
+    background-color: #F1E4E6;
+    height: 764px;
+    margin-bottom: 65px;
+    &__wrap {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        background-image: url(../proffesional/imgprof/Layer_57-removebg-preview1.png);
+        background-repeat: no-repeat;
+        background-position: -212px bottom;   
+    }
+    &__text {
+        max-width: 377px;
+        border-left: 12px solid #F16D7F ;
+        padding-left: 16px;
+        @include text_style (24px, 58px,);
+        text-align: start;         
+    } 
+}
+.decor {
+    color: #F16D7F; 
+ }
+
+.intro__text-size {
+    font-size: 48px;
+}
+

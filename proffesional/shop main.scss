@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1160px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.low {
+    flex-grow: 1;
+}
+
+@import "./blocks/header";
+
+@import "./blocks/intro";
+
+@import "./blocks/category";
+
+@import "./blocks/card";
+
+@import "./blocks/footer-block1";
+
+@import "./blocks/footer-block2";
+
+@import "./blocks/footer-block3";
+
+@import "./blocks/catalog-intro";
+
+@import "./blocks/catalog-card";
+
+@import "./blocks/slider";
+
+@import "./blocks/third-page-modal-window";
