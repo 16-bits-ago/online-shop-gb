@@ -6,3 +6,12 @@
     line-height: $line-height;
 }
 
+@mixin text_style_2 ($font-size, $line-height,) {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: $font-size;
+    line-height: $line-height;
+}
+
+
