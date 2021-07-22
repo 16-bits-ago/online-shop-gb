@@ -68,12 +68,14 @@
 
         &-button {
             margin: 0 auto;
-            border: 1px solid #FF6A6A;
+            outline: 1px solid #FF6A6A;
+            padding: 12px 0;
             margin-bottom: 50px;
             &-inside {
+                text-decoration: none;
                 text-align: center;
                 color: #EF5B70;
-                padding: 14px 56px;
+                padding: 13px 56px;
                 border: none;
                 @include text_style (16px, 19px);
                 width: 100%;
