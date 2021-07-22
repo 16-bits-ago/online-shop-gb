@@ -23,6 +23,7 @@
     }
 
     &__navigationtext {
+        text-decoration: none;
         border: none;
         background-color: #F8F3F4;
         @include text_style (14px, 17px);

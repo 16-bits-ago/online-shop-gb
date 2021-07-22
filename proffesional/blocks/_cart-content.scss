@@ -1,0 +1,185 @@
+@import "./vars";
+
+.cart-intro {
+    height: 148px;
+    background: #F8F3F4;
+    margin-bottom: 96px;
+    
+    &__text{
+        background-color: #F8F3F4;
+        margin-top: 60px;
+        border: none;
+        @include text_style (24px, 29px);
+        color: #F16D7F;
+        cursor: pointer;
+    }
+}
+
+.cart-page__content {
+    display: flex;
+    justify-content: space-between;
+    
+    &-left {
+        width: 652px;
+        padding-bottom: 128px;
+        
+    }   
+}
+
+.cart-card {
+    &__item {
+        width: 652px;
+        height: 306px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-bottom: 48px;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 8px 0px;
+        overflow: hidden;  
+    } 
+    
+    &__img {
+        height: 100%;
+    }
+
+    &__text {
+        width: 262px;
+        &-option {
+            padding-top: 22px;
+            padding-left: 31px;
+            padding-bottom: 62px;
+        }
+        &-title {
+            @include text_style (24px, 29px);
+            padding-bottom: 42px;
+        }
+        &-price {
+            @include text_style (24px, 29px);
+            opacity: 0.8;
+            color: rgb(87, 87, 87);
+            &-decor {
+                color: rgb(241, 109, 127);
+            }
+        }
+        &-color {
+            @include text_style (24px, 29px);
+            opacity: 0.8;
+            color: rgb(87, 87, 87);
+        }
+        &-size {
+            @include text_style (24px, 29px);
+            opacity: 0.8;
+            color: rgb(87, 87, 87);
+        }
+        &-quantity {
+            @include text_style (24px, 29px);
+            opacity: 0.8;
+            color: rgb(87, 87, 87);
+        }
+        
+    }
+
+    &__input {
+        width: 24px;
+        text-align: center;
+        margin-left: 24px;
+    }
+
+    &__close {
+        padding-left: 57px;
+        padding-bottom: 215px;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: space-between;
+        &-style {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            @include text_style (14px, 17px);
+            cursor: pointer;
+            width: 234px;
+            height: 49px;
+            background-color: rgb(255, 255, 255);
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(164, 164, 164);
+            border-image: initial;
+        }
+    }
+}
+
+.cart-page__content-right {
+    
+    &-up {
+        width: 360px;
+        height: 272px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 57px;
+        &-input:not(:last-child) {
+            @include text_style (13px, 16px);
+            width: 360px;
+            height: 45px;
+        }
+        &-input {
+            @include text_style (11px, 13px);
+            width: 100px;
+            height: 34px;
+            padding-left: 17px;
+        }
+    }
+
+    &-down {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 360px;
+        height: 214px;
+        background: rgb(245, 243, 243);
+        &-text {
+            @include text_style (11px, 13px);
+            &-1 {
+                width: 108px;
+                display: flex;
+                justify-content: space-between;
+                padding: 39px 34px 12px 218px;
+            }
+            &-2 {
+                @include text_style (16px, 19px);
+                width: 170px;
+                display: flex;
+                justify-content: space-between;
+                padding: 0px 37px 0px 153px;
+                &-decor {
+                    color: rgb(241, 109, 127);
+                }
+            }
+        }
+        &-hr {
+            padding: 0px;
+            margin: 0px 50px;
+        }
+        &-button {
+            align-self: center;
+            padding-bottom: 42px;
+            &-inside {
+                cursor: pointer;
+                width: 273px;
+                height: 50px;
+                @include text_style (16px, 19px);
+                color: rgb(255, 255, 255);
+                border-width: initial;
+                border-style: none;
+                border-color: initial;
+                border-image: initial;
+                background: rgb(241, 109, 127);
+            }
+        }
+    }
+}

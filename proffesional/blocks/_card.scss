@@ -43,6 +43,10 @@
         }
     }
     &__buttoncart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
         border: 1px solid #FFFFFF;
         width: 138px;
         height: 43px;
@@ -59,6 +63,7 @@
         margin-top: 25px;
     }
     &__name {
+        text-decoration: none;
         @include text_style (13px, 16px);
         color: #000000;
     }
