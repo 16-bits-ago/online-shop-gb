@@ -1,0 +1,23 @@
+@import "./vars";
+
+.cart {
+    height: 148px;
+    background-color: #F8F3F4;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    &-intro {
+        display: flex;
+
+        &__wrap {
+        margin-left: 360px;  
+        }
+
+        &__text{
+            @include text_style (24px, 29px);
+            color: #F16D7F;
+            border: none;
+            background-color: #F8F3F4;    
+        }
+}
+}
