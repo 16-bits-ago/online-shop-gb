@@ -62,3 +62,18 @@
     @include text_style (24px, 38px);
     text-align: center; 
 }
+
+@media (max-width: 768px) {
+    .category__item:not(:last-child) {
+        width: 32%;
+    }
+}
+
+@media (max-width: 375px) {
+    .category__wrap {
+        flex-direction: column;
+    }
+    .category__item:not(:last-child) {
+        width: 100%;
+    }
+}

@@ -30,3 +30,18 @@
     
     }
 }
+
+
+@media (max-width: 768px) {
+    .footer__block1 {
+        height: 610px;
+    }
+
+    .option {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 375px) {
+    
+}
