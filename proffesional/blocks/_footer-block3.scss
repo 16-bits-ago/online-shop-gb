@@ -28,3 +28,22 @@
         border: none;
     }
 }
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 375px) {
+    .footer__block3wrap {
+        display: flex;
+        flex-direction: column;
+    }  
+    
+    .footerblock3text {
+        order: 1;
+    }
+
+    .footerblock3button {
+        order: 0;
+    }
+}

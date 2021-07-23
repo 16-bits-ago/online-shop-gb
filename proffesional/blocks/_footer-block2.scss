@@ -57,3 +57,27 @@
         cursor: pointer;
     }
 }
+
+
+@media (max-width: 768px) {
+    .footer__block2 {
+        height: 614px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 330%;
+    }
+
+    .footer__block2content {
+        flex-direction: column;
+    }
+
+    .footer__block2info {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer__block2 {
+        background-size: 650%;
+    }
+}

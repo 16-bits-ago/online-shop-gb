@@ -2,7 +2,7 @@
 
 .intro {
     background-color: #F1E4E6;
-    height: 764px;
+    height: calc(100vh - 78px);
     margin-bottom: 65px;
     &__wrap {
         height: 100%;
@@ -29,3 +29,12 @@
     font-size: 48px;
 }
 
+@media (max-width: 530px) {
+    .intro__wrap {
+        background-image: none;
+    }
+
+    .intro__text {
+        min-width: 377px;
+    }
+}
